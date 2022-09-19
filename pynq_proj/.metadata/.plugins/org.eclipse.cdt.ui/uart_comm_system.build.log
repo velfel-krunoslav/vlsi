@@ -1,12 +1,3 @@
-Nothing to build in platform 'pynq_proj_platform'
-
-14:55:03 **** Incremental Build of configuration Debug for project uart_comm ****
-make all 
-make --no-print-directory pre-build
-a9-linaro-pre-build-step
- 
-make --no-print-directory main-build
-make[1]: Nothing to be done for 'main-build'.
 14:55:07 **** Incremental Build of configuration Debug for project uart_comm_system ****
 make all 
 Generating bif file for the system project
@@ -14,3 +5,6 @@ Executing command '::scw::generate_bif -xpfm /home/krunoslav/Xilinx/repos/vlsi/p
 sdcard_gen --xpfm /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/pynq_proj_platform.xpfm --sys_config pynq_proj_platform --bif /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm_system/Debug/system.bif --bitstream /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/bitstream/design_1_wrapper.bit --elf /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/Debug/uart_comm.elf,ps7_cortexa9_0
 creating BOOT.BIN using /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/bitstream/design_1_wrapper.bit
 Running /home/krunoslav/Xilinx/Vitis/2022.1/bin/bootgen  -image /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:55:20 Build Finished (took 13s.447ms)
+

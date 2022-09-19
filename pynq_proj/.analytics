@@ -4,3 +4,7 @@ timestamp=[2022-09-19 14:39:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00
 timestamp=[2022-09-19 14:41:42], mode=PLATFORM_CREATION, duration=0:00:27.174, duration_ms=27174, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
 timestamp=[2022-09-19 14:48:46], mode=PLATFORM_GENERATION, duration=0:00:43.506, duration_ms=43506, data={name=pynq_proj_platform}
 timestamp=[2022-09-19 14:51:08], mode=APP_CREATION, duration=0:00:21.128, duration_ms=21128, data={name=uart_comm, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=pynq_proj_platform, application_type=application}
+timestamp=[2022-09-19 14:52:28], mode=BUILD, duration=0:00:02.043, duration_ms=2043, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 14:52:45], mode=BUILD, duration=0:00:14.193, duration_ms=14193, data={name=uart_comm_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 14:55:04], mode=BUILD, duration=0:00:01.198, duration_ms=1198, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 14:55:20], mode=BUILD, duration=0:00:13.475, duration_ms=13475, data={name=uart_comm_system, configuration=Debug, clean_build=false}

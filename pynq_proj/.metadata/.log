@@ -5603,3 +5603,1428 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:51:09.963
 !MESSAGE XSCT command with result: [::hsi::utils::closehw /tmp/hwspec_design_1_wrapper14796280392954918696/design_1_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:52:26.474
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss ], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:52:26.483
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:52:26.484
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:52:26.488
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.7",
+}]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-09-19 14:52:26.488
+!MESSAGE Generating MD5 hash for file: /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:52:26.494
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:52:26.496
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-19 14:53:39.480
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-19 14:53:39.481
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-19 14:53:39.481
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:55:03.393
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss ], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:55:03.399
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:55:03.399
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:55:03.403
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.7",
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-09-19 14:55:03.404
+!MESSAGE Generating MD5 hash for file: /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:55:03.405
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:55:03.408
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.024
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.025
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.025
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.045
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.045
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.047
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.047
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.048
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:56:51.048
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:51.940
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:51.948
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:51.949
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:51.970
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:51.970
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.002
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.006
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.007
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.008
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.011
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.011
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.014
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.014
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.017
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.018
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.021
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.021
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.023
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.024
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.027
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.028
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.047
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.048
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.077
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.078
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.080
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.081
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.083
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.083
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.088
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.089
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.090
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.091
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.093
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.093
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.095
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.100
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa bit], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.105
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.107
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.116
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.118
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.215
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.217
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.221
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.1]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.221
+!MESSAGE XSCT Command: [version], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.222
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.1.0
+SW Build 3524075 on 2022-04-13-17:42:45
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.227
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.239
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.240
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:56:52.271
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_uart_comm_system
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:57:58.140
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:57:58.141
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-09-19 14:57:58.141
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.165
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.171
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.173
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.195
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.196
+!MESSAGE XSCT Command: [version -server], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.197
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.1]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.198
+!MESSAGE XSCT Command: [version], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.198
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.1.0
+SW Build 3524075 on 2022-04-13-17:42:45
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.199
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.212
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.215
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.259
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.261
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.275
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.276
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.318
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.325
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.334
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.335
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.362
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.367
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.381
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.381
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.424
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.425
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.440
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.440
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.487
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.489
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.505
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.505
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.539
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.540
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.579
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.580
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.582
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.584
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.600
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.601
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.646
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:05.647
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.652
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.696
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.713
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.713
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.755
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.763
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.765
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.765
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.776
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.777
+!MESSAGE XSCT Command: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.782
+!MESSAGE XSCT command with result: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.783
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.798
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.799
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.834
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     2  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.835
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 3], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.838
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 3], Result: [null, jsn-TUL-1234-tulA-4ba00477-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.838
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 2], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.841
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 2], Result: [null, jsn-TUL-1234-tulA-23727093-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.848
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.905
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:08.906
+!MESSAGE XSCT Command: [fpga -file /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.234
+!MESSAGE XSCT command with result: [fpga -file /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.285
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.303
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.306
+!MESSAGE XSCT Command: [loadhw -hw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.407
+!MESSAGE XSCT command with result: [loadhw -hw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_3]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.408
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.410
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.411
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.435
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.437
+!MESSAGE XSCT Command: [source /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/psinit/ps7_init.tcl], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.451
+!MESSAGE XSCT command with result: [source /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:11.452
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.202
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.205
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.222
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.223
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.242
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.242
+!MESSAGE XSCT Command: [dow /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/Debug/uart_comm.elf], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.423
+!MESSAGE XSCT command with result: [dow /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/Debug/uart_comm.elf], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.424
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.458
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.560
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.594
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.595
+!MESSAGE XSCT Command: [con], Thread: Worker-4: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-19 14:58:12.758
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_uart_comm_system
