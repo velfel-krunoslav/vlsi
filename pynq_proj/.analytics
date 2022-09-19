@@ -8,3 +8,18 @@ timestamp=[2022-09-19 14:52:28], mode=BUILD, duration=0:00:02.043, duration_ms=2
 timestamp=[2022-09-19 14:52:45], mode=BUILD, duration=0:00:14.193, duration_ms=14193, data={name=uart_comm_system, configuration=Debug, clean_build=false}
 timestamp=[2022-09-19 14:55:04], mode=BUILD, duration=0:00:01.198, duration_ms=1198, data={name=uart_comm, configuration=Debug, clean_build=false}
 timestamp=[2022-09-19 14:55:20], mode=BUILD, duration=0:00:13.475, duration_ms=13475, data={name=uart_comm_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:06:52], mode=BUILD, duration=0:00:01.665, duration_ms=1665, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:07:09], mode=BUILD, duration=0:00:14.587, duration_ms=14587, data={name=uart_comm_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:27:02], mode=WORKBENCH_START, duration=0:00:18.787, duration_ms=18787, data={}
+timestamp=[2022-09-19 15:27:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.196, duration_ms=196, data={}
+timestamp=[2022-09-19 15:27:09], mode=WORKBENCH_UI_INIT, duration=0:00:06.986, duration_ms=6986, data={editors_count=6, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,pynq_proj_platform,uart_comm,uart_comm_system}
+timestamp=[2022-09-19 15:37:28], mode=BUILD, duration=0:00:01.262, duration_ms=1262, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:46:08], mode=BUILD, duration=0:00:01.273, duration_ms=1273, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:46:50], mode=BUILD, duration=0:00:01.338, duration_ms=1338, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:47:05], mode=BUILD, duration=0:00:12.740, duration_ms=12740, data={name=uart_comm_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:50:43], mode=BUILD, duration=0:00:01.165, duration_ms=1165, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:50:57], mode=BUILD, duration=0:00:12.439, duration_ms=12439, data={name=uart_comm_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:55:53], mode=BUILD, duration=0:00:01.402, duration_ms=1402, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:56:08], mode=BUILD, duration=0:00:12.304, duration_ms=12304, data={name=uart_comm_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:57:55], mode=BUILD, duration=0:00:01.397, duration_ms=1397, data={name=uart_comm, configuration=Debug, clean_build=false}
+timestamp=[2022-09-19 15:58:09], mode=BUILD, duration=0:00:12.083, duration_ms=12083, data={name=uart_comm_system, configuration=Debug, clean_build=false}

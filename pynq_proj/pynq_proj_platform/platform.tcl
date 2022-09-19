@@ -30,3 +30,7 @@ bsp reload
 bsp config stdin "ps7_uart_0"
 bsp config stdout "ps7_uart_0"
 bsp reload
+bsp reload
+domain active {standalone_domain}
+bsp config stdin "ps7_uart_0"
+bsp reload

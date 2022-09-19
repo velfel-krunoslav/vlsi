@@ -54,8 +54,17 @@ int main()
 {
     init_platform();
 
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application");
+    char t[6];
+    int i;
+    for(i = 0; i < 5; i++)
+    {
+    	xil_printf("Loading t[%d]\n\r", i);
+    	t[i] = inbyte();
+    }
+    t[i] = '\0';
+
+    xil_printf("This is a test message\n\r");
+    xil_printf("Loaded str: %s\n", t);
     cleanup_platform();
     return 0;
 }
