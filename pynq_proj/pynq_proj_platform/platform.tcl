@@ -34,3 +34,6 @@ bsp reload
 domain active {standalone_domain}
 bsp config stdin "ps7_uart_0"
 bsp reload
+platform clean
+platform generate -domains standalone_domain,zynq_fsbl 
+platform generate -domains standalone_domain,zynq_fsbl 

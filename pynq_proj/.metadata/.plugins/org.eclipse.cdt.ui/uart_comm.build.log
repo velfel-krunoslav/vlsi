@@ -1,4 +1,4 @@
-13:13:23 **** Incremental Build of configuration Debug for project uart_comm ****
+17:20:29 **** Incremental Build of configuration Debug for project uart_comm ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -7,6 +7,11 @@ make --no-print-directory main-build
 Building file: ../src/cbmp.c
 Invoking: ARM v7 gcc compiler
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cbmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/sw/pynq_proj_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/cbmp.d" -MT"src/cbmp.o" -o "src/cbmp.o" "../src/cbmp.c"
+../src/cbmp.c: In function 'bwrite':
+../src/cbmp.c:157:25: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
+  157 |                         xil_printf("%s", ob);
+      |                         ^~~~~~~~~~
+      |                         viprintf
 Finished building: ../src/cbmp.c
  
 Building target: uart_comm.elf
@@ -17,9 +22,9 @@ Finished building target: uart_comm.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size uart_comm.elf  |tee "uart_comm.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  55631	   2548	  22632	  80811	  13bab	uart_comm.elf
+  67403	   2548	16791656	16861607	10149a7	uart_comm.elf
 Finished building: uart_comm.elf.size
  
 
-13:13:24 Build Finished (took 1s.646ms)
+17:20:31 Build Finished (took 1s.589ms)
 

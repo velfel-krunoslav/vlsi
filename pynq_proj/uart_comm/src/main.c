@@ -54,7 +54,8 @@
 int main() {
 	init_platform();
 
-	unsigned char *buf = malloc(104857600 * sizeof(char));
+	unsigned char *buf = malloc(512000 * sizeof(char));
+
 	int i = 0;
 
 	for (i = 0; i < 2; i++) {
