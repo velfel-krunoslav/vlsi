@@ -11754,3 +11754,316 @@ Caused by: org.eclipse.swt.SWTException: Invalid thread access
 	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
 	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
 	... 22 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.033
+!MESSAGE XSCT Command: [disconnect tcfchan#26], Thread: Thread-1342
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.040
+!MESSAGE XSCT command with result: [disconnect tcfchan#26], Result: [null, ]. Thread: Thread-1342
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.106
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.146
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#27]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.150
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.175
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.176
+!MESSAGE XSCT Command: [version -server], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.178
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.1.0]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.178
+!MESSAGE XSCT Command: [version], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.179
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.1.0
+SW Build 3524075 on 2022-04-13-17:42:45
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.180
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.198
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.198
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.250
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.250
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.267
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.268
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.303
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.304
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.321
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.321
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.362
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.364
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.375
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.375
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.421
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.422
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.438
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.438
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.482
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.483
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.500
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.500
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.540
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.540
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.588
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.588
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.599
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.604
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.643
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.644
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.688
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:38.688
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.692
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.728
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.743
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.744
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.769
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.770
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-4ba00477-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.863
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-4ba00477-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:41.864
+!MESSAGE XSCT Command: [fpga -file /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:44.199
+!MESSAGE XSCT command with result: [fpga -file /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:44.246
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:44.276
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:44.276
+!MESSAGE XSCT Command: [loadhw -hw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-09-21 12:56:48.320
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@5042f9a1]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:550)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:471)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:576)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.722
+!MESSAGE XSCT command with result: [loadhw -hw /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/pynq_proj_platform/export/pynq_proj_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_23]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.723
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.726
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.727
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.746
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.747
+!MESSAGE XSCT Command: [source /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/psinit/ps7_init.tcl], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.754
+!MESSAGE XSCT command with result: [source /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:49.755
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.383
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.383
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.394
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.395
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.418
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.419
+!MESSAGE XSCT Command: [dow /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/Debug/uart_comm.elf], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.734
+!MESSAGE XSCT command with result: [dow /home/krunoslav/Xilinx/repos/vlsi/pynq_proj/uart_comm/Debug/uart_comm.elf], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.736
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.772
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.796
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.818
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.818
+!MESSAGE XSCT Command: [con], Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-21 12:56:50.872
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-73: Launching SystemDebugger_uart_comm_system
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-09-21 12:56:56.352
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@5042f9a1]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:550)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:471)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:576)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
